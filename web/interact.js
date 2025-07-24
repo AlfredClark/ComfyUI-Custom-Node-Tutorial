@@ -16,9 +16,9 @@ app.registerExtension({
             // 备份节点
             const node = this;
             // 执行原始onNodeCreated函数
-            if (onNodeCreated) {
-                onNodeCreated.apply(this, arguments);
-            }
+            const r = onNodeCreated ? (
+                onNodeCreated.apply(this, arguments)
+            ) : void 0;
             // 通过组件名称获得组件
             const model_type = this.widgets.find(w => w.name === "model_type");
             const model_name = this.widgets.find(w => w.name === "model_name");
@@ -35,6 +35,7 @@ app.registerExtension({
                 // 初始化时触发一次回调
                 model_type.callback(model_type.value);
             }
+            return r
         };
 
         // 配置加载后的初始化
