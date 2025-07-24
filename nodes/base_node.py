@@ -25,6 +25,7 @@ class BaseNode:
 
     # 官方使用的类参数
     CATEGORY = DEFAULT_CATEGORY  # 节点的前端显示类别
+    DESCRIPTION = None  # 节点描述信息（鼠标瞄准节点时显示在预览下部的描述信息）
 
     RETURN_TYPES = ()  # 返回类型，必须有有效值，无返回则使用()
     RETURN_NAMES = ()  # 返回命名，与RETURN_TYPES长度相同的字符元组，不填写则使用类型小写

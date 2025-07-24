@@ -20,6 +20,7 @@ class InteractNode(BaseNode):
     """
     NODE_NAME = "InteractNode"
     DISPLAY_NAME = "Interact Node"
+    DESCRIPTION = "Interact Node Template"
 
     CATEGORY = DEFAULT_CATEGORY
 

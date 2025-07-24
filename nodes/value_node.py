@@ -17,6 +17,7 @@ class ValueNode(BaseNode):
     """
     NODE_NAME = "ValueNode"
     DISPLAY_NAME = "Value Node"
+    DESCRIPTION = "Value Node Template"
 
     CATEGORY = DEFAULT_CATEGORY
 
