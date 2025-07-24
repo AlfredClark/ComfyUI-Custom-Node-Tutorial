@@ -8,6 +8,7 @@
 @Desc    :  入口文件
 """
 from .nodes import *
+from .nodes.config import *
 
 # 获得用户管理程序及本地化设置
 try:

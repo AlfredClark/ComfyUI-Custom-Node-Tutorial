@@ -32,6 +32,9 @@ class BaseNode:
 
     FUNCTION = "run"  # 运行函数名
 
+    OUTPUT_NODE = False  # 是否为输出节点
+    EXPERIMENTAL = False  # 是否为实验性节点
+
     INPUT_IS_LIST = False  # 输入是否为列表，默认False
 
     # OUTPUT_IS_LIST = (False,)  # 与RETURN_TYPES长度相同的bool元组，需要在子类中实现
