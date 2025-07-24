@@ -15,7 +15,7 @@ class ValueNode(BaseNode):
     """
     数值相关功能节点
     """
-    NODE_NAME = "Value Node"
+    NODE_NAME = "ValueNode"
     DISPLAY_NAME = "Value Node"
 
     CATEGORY = DEFAULT_CATEGORY
