@@ -1,5 +1,8 @@
 # ComfyUI 自定义节点教程
+
 > ComfyUI 自定义节点的开发教程.
+
+简体中文 | [English](README-en.md)
 
 ## 自定义数值节点
 
