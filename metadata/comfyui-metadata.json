@@ -1,0 +1,11 @@
+{
+  "modelspec.title": "Model Title",
+  "modelspec.architecture": "Base Model ID. Such as: stable-diffusion-xl-v1-base",
+  "modelspec.author": "Model Author",
+  "modelspec.description": "Model Description.",
+  "modelspec.resolution": "1024x1024",
+  "modelspec.usage_hint": "Use keyword 'example'",
+  "modelspec.trigger_phrase": "A keyword bast/must to use",
+  "modelspec.thumbnail": "base64image",
+  "modelspec.tags": "Example tags"
+}
